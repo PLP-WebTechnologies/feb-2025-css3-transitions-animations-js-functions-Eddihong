@@ -1,0 +1,45 @@
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #3498db;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.user-preference {
+  margin-top: 20px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 50px auto;
+  background-color: #ff5733;
+  border-radius: 10px;
+  transition: transform 0.5s ease, background-color 0.5s ease;
+}
+
+/* Animation Class */
+.animate {
+  transform: scale(1.5) rotate(360deg);
+}
